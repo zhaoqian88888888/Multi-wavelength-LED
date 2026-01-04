@@ -1,0 +1,174 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.38.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 潜 赵, 123, LIC=ZB4EI-TTAFD-IIA5V-PFCDA-P91MT-DPG3U
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.38.0.0
+Toolchain Path:  D:\Soft\ProgramFile\MDK\Core\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.38.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.1.0.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+F:\论文-调试\汇总\YFP\Software\motor_LED\MDK-ARM\motor_LED.uvprojx
+Project File Date:  01/04/2026
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\Soft\ProgramFile\MDK\Core\ARM\ARMCC\Bin'
+Build target 'motor_8LED'
+assembling startup_stm32f103xe.s...
+compiling dma.c...
+compiling stm32f1xx_hal_msp.c...
+compiling GP8211S.c...
+compiling motor_ctrl.c...
+..\Core\Src\motor_ctrl.c(333): warning:  #1-D: last line of file ends without a newline
+  }
+..\Core\Src\motor_ctrl.c: 1 warning, 0 errors
+compiling core_delay.c...
+compiling gpio.c...
+compiling stm32f1xx_it.c...
+compiling myiic.c...
+compiling tim.c...
+compiling sht30.c...
+compiling usart.c...
+compiling ina228.c...
+../Core/Inc/ina228.h(45): warning:  #1295-D: Deprecated declaration GET_VBUS - give arg types
+  float GET_VBUS();
+../Core/Inc/ina228.h(46): warning:  #1295-D: Deprecated declaration GET_CURRENT - give arg types
+  float GET_CURRENT();
+..\Core\Src\ina228.c(158): warning:  #177-D: variable "temp"  was declared but never referenced
+  	u16 temp=0;
+..\Core\Src\ina228.c: 3 warnings, 0 errors
+compiling spectrum.c...
+compiling main.c...
+../Core/Inc/ina228.h(45): warning:  #1295-D: Deprecated declaration GET_VBUS - give arg types
+  float GET_VBUS();
+../Core/Inc/ina228.h(46): warning:  #1295-D: Deprecated declaration GET_CURRENT - give arg types
+  float GET_CURRENT();
+../Core/Inc/pid.h(36): warning:  #1-D: last line of file ends without a newline
+  #endif // PID_H
+../Core/Inc/pid_dowith.h(13): warning:  #1-D: last line of file ends without a newline
+  #endif // PID_H
+../Core/Src/main.c(376): warning:  #177-D: variable "user_setdc_locked"  was declared but never referenced
+      static uint8_t user_setdc_locked = 0;   // 0 可更新；1 锁定，不再被报文覆盖
+../Core/Src/main.c(377): warning:  #177-D: variable "last_led_channel"  was declared but never referenced
+      static uint8_t last_led_channel  = 0;   // 上一次工作的 LED 通道 (1~8
+../Core/Src/main.c(604): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "volatile uint8_t *"
+  		usart3_SendCmd(CMP_BUFF,9 );
+../Core/Src/main.c(622): warning:  #186-D: pointless comparison of unsigned integer with zero
+  			if(TASK_BUFF[0]==0x30&&TASK_BUFF[1]>=0x00&&TASK_BUFF[1]<=0x0d&&TASK_BUFF[2]>=0x00&&TASK_BUFF[2]<=0xB4&&(TASK_BUFF[3]==0x01||TASK_BUFF[3]==0x10))
+../Core/Src/main.c(622): warning:  #186-D: pointless comparison of unsigned integer with zero
+  			if(TASK_BUFF[0]==0x30&&TASK_BUFF[1]>=0x00&&TASK_BUFF[1]<=0x0d&&TASK_BUFF[2]>=0x00&&TASK_BUFF[2]<=0xB4&&(TASK_BUFF[3]==0x01||TASK_BUFF[3]==0x10))
+../Core/Src/main.c: 9 warnings, 0 errors
+compiling pid_shared.c...
+compiling spectrum1.c...
+compiling spectrum2.c...
+compiling spectrum3.c...
+compiling stm32f1xx_hal_gpio_ex.c...
+compiling stm32f1xx_hal.c...
+compiling pid.c...
+../Core/Inc/pid.h(36): warning:  #1-D: last line of file ends without a newline
+  #endif // PID_H
+../Core/Inc/ina228.h(45): warning:  #1295-D: Deprecated declaration GET_VBUS - give arg types
+  float GET_VBUS();
+../Core/Inc/ina228.h(46): warning:  #1295-D: Deprecated declaration GET_CURRENT - give arg types
+  float GET_CURRENT();
+../Core/Inc/pid_dowith.h(13): warning:  #1-D: last line of file ends without a newline
+  #endif // PID_H
+..\Core\Src\pid.c(44): warning:  #177-D: variable "err_count"  was declared but never referenced
+  	static int err_count = 0;
+..\Core\Src\pid.c(50): warning:  #177-D: variable "err_count"  was declared but never referenced
+  	static int err_count = 0;
+..\Core\Src\pid.c(56): warning:  #177-D: variable "err_count"  was declared but never referenced
+  	static int err_count = 0;
+..\Core\Src\pid.c(63): warning:  #177-D: variable "err_count"  was declared but never referenced
+  	static int err_count = 0;
+..\Core\Src\pid.c(181): warning:  #177-D: variable "err_count"  was declared but never referenced
+  	static int err_count = 0;
+..\Core\Src\pid.c(186): warning:  #177-D: variable "err_count"  was declared but never referenced
+  	static int err_count = 0;
+..\Core\Src\pid.c(191): warning:  #177-D: variable "err_count"  was declared but never referenced
+  	static int err_count = 0;
+..\Core\Src\pid.c(195): warning:  #177-D: variable "err_count"  was declared but never referenced
+  	static int err_count = 0;
+..\Core\Src\pid.c(769): warning:  #1-D: last line of file ends without a newline
+  }
+..\Core\Src\pid.c(21): warning:  #177-D: variable "error"  was declared but never referenced
+  static float error,last_error,sum_error;
+..\Core\Src\pid.c(21): warning:  #177-D: variable "last_error"  was declared but never referenced
+  static float error,last_error,sum_error;
+..\Core\Src\pid.c(21): warning:  #177-D: variable "sum_error"  was declared but never referenced
+  static float error,last_error,sum_error;
+..\Core\Src\pid.c: 16 warnings, 0 errors
+compiling pid_dowith.c...
+../Core/Inc/pid_dowith.h(13): warning:  #1-D: last line of file ends without a newline
+  #endif // PID_H
+../Core/Inc/pid.h(36): warning:  #1-D: last line of file ends without a newline
+  #endif // PID_H
+../Core/Inc/ina228.h(45): warning:  #1295-D: Deprecated declaration GET_VBUS - give arg types
+  float GET_VBUS();
+../Core/Inc/ina228.h(46): warning:  #1295-D: Deprecated declaration GET_CURRENT - give arg types
+  float GET_CURRENT();
+..\Core\Src\pid_dowith.c(75): warning:  #223-D: function "printf" declared implicitly
+  		 		printf(" K1= %f K2= %f k3= %f y_result= %f z_result %f\r",k1, k2, k3, y_result, z_result);
+..\Core\Src\pid_dowith.c(115): warning:  #223-D: function "printf" declared implicitly
+  		 	printf(" K1= %f K2= %f k3= %f y_result= %f z_result %f\r",k1, k2, k3, y_result1, z_result1);
+..\Core\Src\pid_dowith.c(158): warning:  #223-D: function "printf" declared implicitly
+  		printf(" K1= %f K2= %f k3= %f y_result= %f z_result %f\r",k1, k2, k3, y_result2, z_result2);
+..\Core\Src\pid_dowith.c(205): warning:  #223-D: function "printf" declared implicitly
+  			 printf(" K1= %f K2= %f k3= %f y_result= %f z_result %f\r",k1, k2, k3, y_result3, z_result3);
+..\Core\Src\pid_dowith.c: 8 warnings, 0 errors
+compiling stm32f1xx_hal_rcc_ex.c...
+compiling stm32f1xx_hal_tim_ex.c...
+compiling stm32f1xx_hal_gpio.c...
+compiling stm32f1xx_hal_cortex.c...
+compiling stm32f1xx_hal_flash.c...
+compiling stm32f1xx_hal_pwr.c...
+compiling stm32f1xx_hal_dma.c...
+compiling stm32f1xx_hal_rcc.c...
+compiling stm32f1xx_hal_tim.c...
+compiling stm32f1xx_hal_flash_ex.c...
+compiling stm32f1xx_hal_exti.c...
+compiling system_stm32f1xx.c...
+compiling stm32f1xx_hal_uart.c...
+linking...
+Program Size: Code=36072 RO-data=18476 RW-data=424 ZI-data=16744  
+FromELF: creating hex file...
+"motor_8LED\motor_8LED.axf" - 0 Error(s), 37 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM.CMSIS.5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F1xx_DFP.2.4.1.pack
+                Keil.STM32F1xx_DFP.2.4.1
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_motor_8LED
+  D:/Soft/ProgramFile/MDK/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+  D:/Soft/ProgramFile/MDK/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.6.0
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

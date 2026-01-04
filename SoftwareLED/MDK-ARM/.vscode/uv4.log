@@ -1,0 +1,41 @@
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\Soft\ProgramFile\MDK\Core\ARM\ARMCC\Bin'
+Build target 'motor_8LED'
+compiling pid.c...
+../Core/Inc/pid.h(36): warning:  #1-D: last line of file ends without a newline
+  #endif // PID_H
+../Core/Inc/ina228.h(45): warning:  #1295-D: Deprecated declaration GET_VBUS - give arg types
+  float GET_VBUS();
+../Core/Inc/ina228.h(46): warning:  #1295-D: Deprecated declaration GET_CURRENT - give arg types
+  float GET_CURRENT();
+../Core/Inc/pid_dowith.h(13): warning:  #1-D: last line of file ends without a newline
+  #endif // PID_H
+..\Core\Src\pid.c(44): warning:  #177-D: variable "err_count"  was declared but never referenced
+  	static int err_count = 0;
+..\Core\Src\pid.c(50): warning:  #177-D: variable "err_count"  was declared but never referenced
+  	static int err_count = 0;
+..\Core\Src\pid.c(56): warning:  #177-D: variable "err_count"  was declared but never referenced
+  	static int err_count = 0;
+..\Core\Src\pid.c(63): warning:  #177-D: variable "err_count"  was declared but never referenced
+  	static int err_count = 0;
+..\Core\Src\pid.c(181): warning:  #177-D: variable "err_count"  was declared but never referenced
+  	static int err_count = 0;
+..\Core\Src\pid.c(186): warning:  #177-D: variable "err_count"  was declared but never referenced
+  	static int err_count = 0;
+..\Core\Src\pid.c(191): warning:  #177-D: variable "err_count"  was declared but never referenced
+  	static int err_count = 0;
+..\Core\Src\pid.c(195): warning:  #177-D: variable "err_count"  was declared but never referenced
+  	static int err_count = 0;
+..\Core\Src\pid.c(714): warning:  #1-D: last line of file ends without a newline
+  }
+..\Core\Src\pid.c(21): warning:  #177-D: variable "error"  was declared but never referenced
+  static float error,last_error,sum_error;
+..\Core\Src\pid.c(21): warning:  #177-D: variable "last_error"  was declared but never referenced
+  static float error,last_error,sum_error;
+..\Core\Src\pid.c(21): warning:  #177-D: variable "sum_error"  was declared but never referenced
+  static float error,last_error,sum_error;
+..\Core\Src\pid.c: 16 warnings, 0 errors
+linking...
+Program Size: Code=35252 RO-data=11260 RW-data=420 ZI-data=16748  
+FromELF: creating hex file...
+"motor_8LED\motor_8LED.axf" - 0 Error(s), 16 Warning(s).
+Build Time Elapsed:  00:00:01
