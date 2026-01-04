@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=IO6 Pin=U9-38
+Removed Pin From Net: NetName=IO7 Pin=U9-39
+Removed Pin From Net: NetName=IO8 Pin=U9-40
+Removed Pin From Net: NetName=INA_SDA Pin=U9-42
+Removed Pin From Net: NetName=INA_SCL Pin=U9-43
+Added Pin To Net: NetName=INA_SDA Pin=U9-38
+Added Pin To Net: NetName=INA_SCL Pin=U9-39
+Added Pin To Net: NetName=IO6 Pin=U9-40
+Added Pin To Net: NetName=IO7 Pin=U9-41
+Added Pin To Net: NetName=IO8 Pin=U9-42
+Added Member To Class: ClassName=Motro_ChangeLED Member=Component C34 0.1uF

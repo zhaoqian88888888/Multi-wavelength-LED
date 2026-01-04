@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=INA_SDA Pin=U9-2
+Removed Pin From Net: NetName=INA_SCL Pin=U9-3
+Added Pin To Net: NetName=INA_SDA Pin=U9-42
+Added Pin To Net: NetName=INA_SCL Pin=U9-43

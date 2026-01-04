@@ -1,0 +1,91 @@
+Removed Pin From Net: NetName=LED+ Pin=P1-1
+Added Component: Designator=C42(C-RAD-0603)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "RAD-0.3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C43(C-RAD-0603)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "RAD-0.3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=R35(0603-1)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10次"; VariantName = "[No Variations]"
+Added Component: Designator=R36(2512)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "20m次"; VariantName = "[No Variations]"
+Added Component: Designator=R37(0603-1)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4.7K次"; VariantName = "[No Variations]"
+Added Component: Designator=R38(0603-1)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4.7K次"; VariantName = "[No Variations]"
+Added Component: Designator=R39(0603-1)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10次"; VariantName = "[No Variations]"
+Added Component: Designator=U17(SOP-10)
+Added Pin To Net: NetName=GND Pin=C43-1
+Added Pin To Net: NetName=VCC_5V Pin=C43-2
+Added Pin To Net: NetName=LED+ Pin=R35-1
+Added Pin To Net: NetName=LED+ Pin=R36-2
+Added Pin To Net: NetName=VCC_3.3V Pin=R37-2
+Added Pin To Net: NetName=VCC_3.3V Pin=R38-2
+Added Pin To Net: NetName=GND Pin=U17-1
+Added Pin To Net: NetName=GND Pin=U17-2
+Added Pin To Net: NetName=VCC_5V Pin=U17-6
+Added Pin To Net: NetName=GND Pin=U17-7
+Change Net Name : Old Net Name=LED+ New Net Name=LED
+Added Pin To Net: NetName=INA_SCL Pin=R37-1
+Added Pin To Net: NetName=INA_SCL Pin=U9-3
+Added Pin To Net: NetName=INA_SCL Pin=U17-5
+Added Net: Name=INA_SCL
+Added Pin To Net: NetName=INA_SDA Pin=R38-1
+Added Pin To Net: NetName=INA_SDA Pin=U9-2
+Added Pin To Net: NetName=INA_SDA Pin=U17-4
+Added Net: Name=INA_SDA
+Added Pin To Net: NetName=LED+ Pin=P1-1
+Added Pin To Net: NetName=LED+ Pin=R36-1
+Added Pin To Net: NetName=LED+ Pin=R39-1
+Added Pin To Net: NetName=LED+ Pin=U17-8
+Added Net: Name=LED+
+Added Pin To Net: NetName=NetC42_1 Pin=C42-1
+Added Pin To Net: NetName=NetC42_1 Pin=R39-2
+Added Pin To Net: NetName=NetC42_1 Pin=U17-9
+Added Net: Name=NetC42_1
+Added Pin To Net: NetName=NetC42_2 Pin=C42-2
+Added Pin To Net: NetName=NetC42_2 Pin=R35-2
+Added Pin To Net: NetName=NetC42_2 Pin=U17-10
+Added Net: Name=NetC42_2
+Added Member To Class: ClassName=LM3409_LED1 Member=Component C42 Cap
+Added Member To Class: ClassName=LM3409_LED1 Member=Component C43 Cap
+Added Member To Class: ClassName=LM3409_LED1 Member=Component R35 10
+Added Member To Class: ClassName=LM3409_LED1 Member=Component R36 20m次
+Added Member To Class: ClassName=LM3409_LED1 Member=Component R37 4.7K
+Added Member To Class: ClassName=LM3409_LED1 Member=Component R38 4.7K
+Added Member To Class: ClassName=LM3409_LED1 Member=Component R39 10
+Added Member To Class: ClassName=LM3409_LED1 Member=Component U17 INA226
